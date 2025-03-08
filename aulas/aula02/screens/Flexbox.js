@@ -1,4 +1,4 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
 
 function Flexbox() {
   return (
@@ -16,31 +16,31 @@ function Flexbox() {
           height: 100,
           width: 100,
           borderRadius: 100,
-          borderWidth:10,
-          borderColor: "lightgrey",
-          backgroundColor: "chartreuse",
-        }}
-      ></View>
-      <View
-        style={{
-          height: 100,
-          width: 100,
-          borderRadius: 100,
-          borderRadius: 100,
-          borderWidth:10,
-          borderColor: "lightgrey",
-          backgroundColor: "yellow",
-        }}
-      ></View>
-      <View
-        style={{
-          height: 100,
-          width: 100,
-          borderRadius: 100,
-          borderRadius: 100,
-          borderWidth:10,
-          borderColor: "lightgrey",
+          borderWidth: 10,
+          borderColor: "gray",
           backgroundColor: "red",
+        }}
+      ></View>
+      <View
+        style={{
+          height: 100,
+          width: 100,
+          borderRadius: 100,
+          borderRadius: 100,
+          borderWidth: 10,
+          borderColor: "gray",
+          backgroundColor: "gold",
+        }}
+      ></View>
+      <View
+        style={{
+          height: 100,
+          width: 100,
+          borderRadius: 100,
+          borderRadius: 100,
+          borderWidth: 10,
+          borderColor: "gray",
+          backgroundColor: "chartreuse",
         }}
       ></View>
     </View>
